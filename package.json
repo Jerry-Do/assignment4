@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
+  "name": "data",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "a2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jerry Do",
+  "license": "ISC",
+  "devDependencies": {}
+}
