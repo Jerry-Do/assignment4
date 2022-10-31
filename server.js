@@ -15,7 +15,7 @@ var HTTP_PORT = process.env.PORT || 8080;
 var app = express();
 
 app.use(express.static('public'))
-app.use(express.static('resource'))
+app.use(express.static('./resource'))
 file.intialize().then(function() 
 {
     app.listen(HTTP_PORT, ()=>{console.log("server listening on port: " + HTTP_PORT)});
