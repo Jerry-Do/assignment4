@@ -93,10 +93,7 @@ app.get("/storefront", (req, res) =>
 {
     res.sendFile("./views/storefront.html", {root: __dirname})
 })
-app.get("/Track03.ogg", (req, res) =>
-{
-    res.sendFile("./resource/Track03.ogg", {root: __dirname})
-})
+
 app.use((req, res) => {
     res.status(404).sendFile("./views/notfound.html", {root: __dirname});
 
